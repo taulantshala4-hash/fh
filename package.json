@@ -1,9 +1,24 @@
 {
   "name": "esp32-upload-server",
   "version": "1.0.0",
+  "description": "ESP32 camera upload server to Dropbox",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {}
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dropbox": "^12.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "esp32",
+    "camera",
+    "upload",
+    "dropbox"
+  ],
+  "author": "Taulant Shala",
+  "license": "MIT"
 }
