@@ -5,11 +5,13 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "dropbox": "^13.0.0",
-    "node-fetch": "^2.6.12"
-  },
+ "dependencies": {
+  "dropbox": "^10.34.0",
+  "node-fetch": "^2.6.12"
+},
+
   "engines": {
     "node": ">=18.0.0"
   }
 }
+
